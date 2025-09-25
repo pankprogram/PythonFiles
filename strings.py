@@ -19,3 +19,4 @@ print(type(name))
 age="2 years"
 print(age)
 print(type(age))
+print(age+2)
