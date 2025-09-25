@@ -1,0 +1,72 @@
+Printing in Python
+
+Jargon					Meaning
+Literal					A value of some type/Examples of numeric literals are : 1, 42, 98.04 - String literals are: "Hello, World!", "Guido van rossum", "Python"
+function				A named block of code that we can call, or by using its name. We can write our own functions that are built into python(such as print). In python, all functions return a value.
+Argument				A Value passed to a function, in order to give it values to work with. There may be no arguments, or there may be 1 or more. Arguments appear in parentheses after the function name. If there are no arguments, you still have to type the parentheses.
+Calling a function		Using the function name to execute the function's code. When you call a function, you have to provide the arguments that the function expects. if it doesn't expect any arguments, don't put anything between the parentheses.
+Return Value			The value that a function returns. 
+Parameter				Also called formal parameter 
+
+Mod 20 - strings.py - 25 Sep
+print("Today is a good day to learn Python")
+print('Python is fun')
+print("Python's string are easy to use")
+print('We can even include "quotes" in strings')
+print("hello" + " world")
+greeting = "Hello"
+#name = input("Please enter your name ")
+name='pankaj'
+print(greeting + name)
+
+# if we want a space, we can add that too
+print(greeting + ' ' + name)
+
+age=24
+print(age)
+print(type(age))
+print(type(name))
+
+age="2 years"
+print(age)
+print(type(age))
+
+Mod21 - The Escape Character
+-------------------------------
+
+splitString = "This string has been \nsplit over\nseveral\nlines"
+print(splitString)
+
+tabbedString = "1\t2\t3\t4\t5"
+print(tabbedString)
+
+print('The pet shop owner said "No, no, \'e\'s uh,...he\'s resting".')
+# or
+print("The pet shop owner said \"No, no, 'e's uh,...he's resting\".")
+
+print("""The pet shop owner said "No, no, 'e's uh,...he's resting". """)
+
+anotherString = """This string has been \
+split over \
+several \
+lines"""
+
+print(anotherString)
+
+###Coding Exercise 3 - Formatting output with Tabs:Aliging Text in Python
+-------------------------------------------------------------------------------------
+print("Number 1\tThe Larch\nNumber 2\tThe Horse Chestnut")
+
+##Mod - 22 - Advanced String Manipulation:Handling backslashes and special Characters
+-------------------------------------------------------------------------------------
+#avoid special meaning for backslash and include backslash in the output
+print("C:\\Users\\timbuchalka\\notes.txt")
+#raw string
+print(r"C:\Users\timbuchalka\notes.txt")
+
+##Mod - 23 - understanding Variables and Datatypes in Python: Int, String and More
+-------------------------------------------------------------------------------------
+
+Variables and Types - When a program's running, everything the program needs ends up stored in the computer's memory. The program code itself will be stored in one area of memory, and the data it works on will also be stored somewhere in memory.
+A Variable is basically just a way to give a (meaningful) name to an area of memory, into which we can place certain values.
+
